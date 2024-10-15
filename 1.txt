@@ -1,0 +1,2 @@
+m="abcdef"
+print(m[-3:])

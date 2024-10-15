@@ -1,0 +1,26 @@
+--Language means communication between systems and humans
+
+--There are two types of languages are high level languages and low level languages
+
+--High level languages are understandable by humans
+--Low level languages are understandable by systems
+
+--High level languages are divided into two types are programming language and scripting language
+--Programming language will use compiler=compiler sccans the entire program at a time
+           In compiler the py source code is converted to py byte code
+           Compiler is faster than interpreter
+           -->Example-c,cc++,java 
+--Scripting language will use interpreter=interpreter executes lines by line execcution of program
+           In interpreter it stores the actual code
+           interpreter is slower than compiler
+           -->Example-python and javascript
+
+--Python is invented by guido van rossum in 1980
+
+*high level means understandable by humans
+*open source means free of cost there is no need to pay single rupee for installing the python
+*interpreted means line by line execution of program
+*scripting language means which uses interpreter for the execution of program called as scripting language
+*dynamic typed means we don't need to specify the datatype python takes datatypes predefined
+*easy to understand and learn and has built in libraies upto 1,37,000 like pandas, numpy etc
+*case sensitive means python does not allow unmeaningful sentences

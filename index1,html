@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Purushotham Kandheri Portfolio Website</title>
+
+
+    <!-- this are the libraries for the google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+
+    <!-- font awensome link libraies  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+
+    <!-- from here the website starts -->
+    <header>
+
+        <div class="navbar">
+
+            <!-- <div class="logo">
+                <img src="images/logo image.jpg" alt="">
+            </div> -->
+
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+
+        <!-- the websites should strat with the content  -->
+
+
+        <div class="profile-content">
+
+            <!-- profile pic -->
+            <div class="profile-photo">
+                <img src="images/profile-pic.avif" alt="">
+            </div>
+
+            <!-- content -->
+
+            <div class="total-content">
+
+                <div class="name">
+                    <h3> <span>Hi!</span> <br> This is
+                        <highlight>Purushotham</highlight>
+                    </h3>
+                </div>
+                <div class="designation">
+                    <h3>Front End Web Designer</h3>
+                </div>
+                <div class="about-me">
+                    <p>I have a good knowledge on the web development,<br> so I'am ready to design the websites and also I'am ready work in your company </p>
+                </div>
+                <div class="home-page-btns">
+                    <!-- Hire me buttons -->
+                    <a href="#projects">Projects</a>
+                    <a href="CV Purushotham Kandheri.pdf" download id="Download">Download My CV <i class="fa-solid fa-circle-down"></i></a>
+                </div>
+
+                <!-- social media icons -->
+
+                <div class="social-media-icons">
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/purushotham-kandheri/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-github"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- about section start from here -->
+
+
+    <section class="about">
+
+        <div class="about-profile-container">
+            <h1>About Me</h1>
+            <!-- profile pic -->
+            <div class="about-profile-pic">
+                <img src="images/about-profile-pic.webp" alt="">
+            </div>
+
+            <!-- about me content -->
+            <div class="about-me-content">
+                <p>Hey this is Arjun, I currenlty pursuing my btech in the steam of Css, In Siddhartha Institute of sceince and techonlogy Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptates est ratione minima quidem. Id reiciendis
+                    voluptate omnis quia a nemo fugit itaque, nostrum dolores magni sit animi quidem et.</p>
+            </div>
+
+            <!-- social media icons -->
+
+            <div class="social-media-icons-about">
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/purushotham-kandheri/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-square-github"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- project secrtion -->
+
+    <section class="Projects" id="projects">
+
+
+        <div class="project-section-title">
+            <h3>My Projects</h3>
+        </div>
+
+        <div class="project-container">
+            <!-- project card - 1 -->
+            <div class="projects-card">
+
+                <div class="project-image">
+                    <img src="images/Project-1 image.png" alt="">
+                </div>
+
+                <div class="project-title">
+                    <h3>Admin Panel</h3>
+                </div>
+
+                <div class="project-discription">
+                    <p>Hey this is admin panel which is used to manage the students recoreds like progras of the srudemts and marks of the students</p>
+                </div>
+
+                <div class="project-source-code">
+                    <a href="https://fontawesome.com/search?q=menu&o=r">Source Code</a>
+                </div>
+            </div>
+            <!-- project card - 2 -->
+            <div class="projects-card">
+
+                <div class="project-image">
+                    <img src="images/Project-1 image.png" alt="">
+                </div>
+
+                <div class="project-title">
+                    <h3>Admin Panel</h3>
+                </div>
+
+                <div class="project-discription">
+                    <p>Hey this is admin panel which is used to manage the students recoreds like progras of the srudemts and marks of the students</p>
+                </div>
+
+                <div class="project-source-code">
+                    <a href="">Source Code</a>
+                </div>
+            </div>
+            <!-- project card - 3 -->
+            <div class="projects-card">
+
+                <div class="project-image">
+                    <img src="images/Project-1 image.png" alt="">
+                </div>
+
+                <div class="project-title">
+                    <h3>Admin Panel</h3>
+                </div>
+
+                <div class="project-discription">
+                    <p>Hey this is admin panel which is used to manage the students recoreds like progras of the srudemts and marks of the students</p>
+                </div>
+
+                <div class="project-source-code">
+                    <a href="">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- certificate sections  -->
+
+
+    <section class="Certificate-section">
+        <div class="certificate-section-title">
+            <h3>My Achivements</h3>
+        </div>
+        <div class="cerificate-holder">
+            <div class="certificate">
+                <a href="images/certificate-1.webp"> <img src="images/certificate-1.webp" alt=""></a>
+            </div>
+            <div class="certificate">
+                <a href="images/certificate-2.webp"> <img src="images/certificate-2.webp" alt=""></a>
+            </div>
+            <div class="certificate">
+                <a href="images/certificate-3.webp"> <img src="images/certificate-3.webp" alt=""> </a>
+            </div>
+            <div class="certificate">
+                <a href="images/certificate-4.webp"> <img src="images/certificate-4.webp" alt=""></a>
+            </div>
+            <div class="certificate" id="top-certificate">
+                <a href="images/certificate-5.webp"> <img src="images/certificate-5.webp" alt=""></a>
+            </div>
+            <div class="certificate">
+                <a href="images/certificate-6.webp"> <img src="images/certificate-6.webp" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- skills sections design -->
+    <div class="skills">
+
+
+        <h3>My Technical Skills</h3>
+
+
+        <div class="skill-sets">
+
+
+            <div class="skill-board">
+
+                <label>Java</label>
+                <div class="java-outer-box">
+
+                    <div class="java-prograss prograss">
+                        <h4>90%</h4>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="skill-board">
+
+                <label>Python</label>
+                <div class="python-outer-box">
+
+                    <div class="python-prograss prograss">
+                        <h4>30%</h4>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="skill-board">
+
+                <label>Web Dev</label>
+                <div class="web-outer-box">
+
+                    <div class="web-prograss prograss">
+                        <h4>100%</h4>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="skill-board">
+
+                <label>AWS</label>
+                <div class="aws-outer-box">
+
+                    <div class="aws-prograss prograss">
+                        <h4>90%</h4>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="skill-board">
+
+                <label>DevOps</label>
+                <div class="aws-outer-box">
+
+                    <div class="aws-prograss prograss">
+                        <h4>90%</h4>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="skill-board">
+
+                <label>Data Science</label>
+                <div class="aws-outer-box">
+
+                    <div class="aws-prograss prograss">
+                        <h4>90%</h4>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- contact section design  -->
+
+    <div class="contact">
+
+        <div class="contact-title">
+            <h3>Get In Touch With Me</h3>
+        </div>
+
+        <div class="contact-holder">
+
+            <form>
+                <input type="text" name="" id="" placeholder="Name">
+                <input type="email" name="" id="" placeholder="Email">
+                <input type="ph" name="" id="" placeholder="Number">
+                <textarea name="" id="" value="Message " placeholder="Message"></textarea>
+                <input type="submit" value="Send Message" name="" id="">
+            </form>
+
+            <!-- google map dsign  -->
+            <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.157726673952!2d76.6525999750653!3d12.30516298795229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf701103f9a1f9%3A0xc37fbae2a124da0d!2sMysore%20Palace!5e0!3m2!1sen!2sin!4v1728140727374!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <!-- social - media icons -->
+
+            <div class="contact-social-media-icons">
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/purushotham-kandheri/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-square-github"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
