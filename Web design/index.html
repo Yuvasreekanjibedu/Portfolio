@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Estately</div>
+    <nav>
+      <a href="#">Condos</a>
+      <a href="#">Houses</a>
+      <a href="#">Commercial</a>
+      <a href="#">For rent</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <button class="login-btn">Login</button>
+  </header>
+
+  <div style="border: 3px black;">
+    <section class="property-section">
+      <img src="https://media.salecore.com/salesaspects/shared/GlobalImageLibrary/Responsive/ElegantSeller/real-estate-home-exterior-6-1760-1000.jpg" alt="House" class="property-image">
+      <div class="property-details">
+        <h2>201 Prague Dr, San Jose, CA 95119</h2>
+        <ul class="details-list">
+          <li><span class="detail-number">4</span><span>Beds</span></li>
+          <li><span class="detail-number">3</span><span>Baths</span></li>
+          <li><span class="detail-number">1,868</span><span>sqft</span></li>
+          <li><span class="detail-number">$1,650,000</span></li>
+        </ul>
+        <div class="dropdown-section">
+          <label for="option">Options: </label>
+          <select id="option">
+            <option>Price History</option>
+            <option>Neighborhood</option>
+            <option>Market Trends</option>
+          </select>
+        </div>
+        <div class="agent-info">
+          <img src="hlo.jpeg" alt="Agent" class="agent-image">
+          <input type="button" value="Contact Agent">
+        </div>
+        <form class="contact-form">
+          <label for="tour-time">Request a Tour</label>
+          <input type="text" id="tour-time" placeholder="11:00 AM Tomorrow">
+          <button class="tour-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <section class="search-filter">
+    <h3>Search for More Properties</h3>
+    <form class="search-form">
+      <input type="text" placeholder="Location" />
+      <select>
+        <option>Apartment</option>
+        <option>House</option>
+        <option>Commercial</option>
+      </select>
+      <input type="text" placeholder="Price Range" />
+      <input type="text" placeholder="Bedrooms" />
+      <button class="search-btn">Search</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 Estately. All rights reserved.</p>
+  </footer>
+</body>
+</html>

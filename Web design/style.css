@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  header.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .login-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .property-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #e8f0f7;
+  }
+  
+  .property-image {
+    width: 55%;
+    height: auto;
+    float: left;
+  }
+  
+  .property-details {
+    width: 40%;
+  }
+  
+  .property-details h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .details-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .details-list li {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .details-list .detail-number {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .dropdown-section {
+    margin: 20px 0;
+  }
+  
+  .dropdown-section label {
+    margin-right: 10px;
+  }
+  
+  .agent-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .agent-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .tour-btn {
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Search Filter Section */
+  .search-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+  }
+  
+  .search-form {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .search-form input,
+  .search-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-btn {
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+  }
+  

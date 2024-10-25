@@ -1,0 +1,207 @@
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px ;
+    
+}
+.icon a{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    color:black;
+    
+}
+.usd{
+    font-size: 15px;
+    font-family: Arial;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.btn {
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: black;
+}
+.main{
+    color: black;
+    font-size: 25px ;
+    font-family: Arial;
+
+} 
+.body{
+   
+    background-color: cover;
+    width: 45%;
+    height: 50vh;
+    display: flex;
+    background-image: center;
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+.h1{
+    font-size: 50px;
+    font-family: Arial;
+    
+}
+.estate .h1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+ .details{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 110px;
+    margin-right: 10px;
+    padding-left : 10%;
+    padding-right: 10px;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .house-information{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 810px;
+   
+ }
+ .price{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: row;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    padding-left: 810px;
+    padding-top: 180px;
+    
+   
+ }
+ .split-btn{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+ }
+ .split-btn{
+
+    height: 3vh;
+    width: 10%;
+    border-radius: 40px;
+    color: black;
+    position: absolute;
+    text-align: center;
+    padding-right: 35px;
+    padding: 15px;
+    padding-left: 30px;
+    margin-top: 190px;
+    
+ }
+ .Agent-pic{
+    height: 8px;
+    border-radius: 30%;
+    min-height: 8vh;
+    max-width: 10%;
+    display: flex;
+    position:absolute;
+    padding-top: 240px;
+    padding-left: 810px;
+    
+ }
+ .Agent{
+    font-size: 15px;
+    position: absolute;
+    padding-top: 295px;
+    margin-left: 810px;
+ }
+ .contact-btn{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px ;
+    padding-top: 10px;
+    border-radius: 35px;
+    margin-top: 260px;
+ }
+
+.request-btn{
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 300px;
+    
+}
+.request-btn{
+    color: white;
+    background-color: black;
+    width: 140px;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 10px;
+    
+}
+.footer{
+    width: 15px;
+    height: 10vh;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 35px ;
+    gap: 100px;
+    padding-block-start: 450px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.search-btn{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+} 
+.location-btn{
+    width: 160px;
+    font-size: 18px;
+    border-radius: 40px;
+    padding: 5px;
+}
+.property-type{
+    width: 160px;
+    font-size: 18px;
+    border-radius: 40px;
+    padding: 5px;
+}
+.price-btn{
+    width: 160px;
+    font-size: 18px;
+    border-radius: 40px;
+    padding: 5px;
+}
+.bedrooms-btn{
+    width: 160px;
+    font-size: 18px;
+    border-radius: 40px;
+    padding: 5px;
+}
+.more-btn{
+    width: 160px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 5px;
+}
+.search-btn{
+    width: 160px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 5px;
+}
